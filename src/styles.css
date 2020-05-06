@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --shadow_1: 1px 1px 4px rgba(0, 0, 0, 0.1), 1px 3px 4px rgba(0, 0, 0, 0.1);
+    --bg-black-opc: rgba(0, 0, 0, 0.1) !important;
+    --white: #FFF;
+    --black: #000;
+    --color-dark-gray: #444;
+    --color-gray: #E2E2E2;
+    --color-purple-rp: #000;
+    /*#5000D9;*/
+    --color-blue-rp: #000;
+    /*#D99100;*/
+    --color-green-rp: #000;
+    /*#73FF00;*/
+    --color-pink-rp: #E21B82;
+    /*#FC14FC;*/
+    --color-skye-rp: rgb(1, 84, 160);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.bg-purple-rp {
+    background-color: var(--color-purple-rp) !important;
+}
